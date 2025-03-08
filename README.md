@@ -43,6 +43,14 @@ Installation instructions
   $ pip install -r requirements.txt
 ```
 
+Server runing
+
+```(bash)
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+```
+
 ## Known issues
 Incase of an error or bug create an issue using the `Issues` tab or create a new branch using Git and make a pull request.
 

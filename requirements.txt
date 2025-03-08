@@ -7,7 +7,10 @@ django-widget-tweaks==1.5.0
 gunicorn==21.2.0
 packaging==23.2
 phonenumberslite==8.13.30
-Pillow==9.3.0
+Pillow==11.1.0
 python-magic==0.4.27
 sqlparse==0.4.3
 whitenoise==6.6.0
+
+# Windows only installation
+python-magic-bin ; sys_platform == 'win32'
