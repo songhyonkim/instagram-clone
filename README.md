@@ -1,5 +1,11 @@
 # Instagram clone
 
+
+## 테스트 소감 (2025. 3. 8.)
+
+* 좌측 사이드바가 사라지지 않음 → Responsive Web Design 보강 필요
+* 일부 기능은 미완성 또는 개선 필요
+
 ## Project screenshots
 |  |  |
 | -------- | -------- |
