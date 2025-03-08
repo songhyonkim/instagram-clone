@@ -49,13 +49,14 @@ Installation instructions
   $ pip install -r requirements.txt
 ```
 
-Server runing
+Run server
 
 ```(bash)
 $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
 $ python manage.py runserver 0.0.0.0:80
+$ gunicorn src.wsgi:application --bind 0.0.0.0:$PORT
 ```
 
 ## Known issues
