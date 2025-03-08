@@ -56,7 +56,8 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
 $ python manage.py runserver 0.0.0.0:80
-$ gunicorn src.wsgi:application --bind 0.0.0.0:$PORT
+$ python manage.py runserver 0.0.0.0:${PORT:-8000}
+$ gunicorn src.wsgi:application --bind 0.0.0.0:${PORT:-8000}
 ```
 
 ## Known issues
