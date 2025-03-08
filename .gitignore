@@ -1,7 +1,9 @@
 *venv
 *env
-# *sqlite3
 media
 
-*migrations
 *__pycache__
+
+# Due to free instance in render.com
+# *sqlite3
+# *migrations
